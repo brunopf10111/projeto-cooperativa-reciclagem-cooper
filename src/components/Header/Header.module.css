@@ -1,0 +1,34 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: -25rem; /* Move o elemento para a esquerda */
+}
+
+
+.header a{
+    text-decoration: none;
+    color: var(--soft-white);
+    padding-inline: 1rem;
+    font-size: 2.5rem;
+    transition: 0.3s;
+    border-radius: 3px;
+    padding-top: 5px;
+}
+
+.header a:hover{
+    color: var(--primary);
+    background-color: whitesmoke;;
+    border-radius: 1rem;
+    
+}
